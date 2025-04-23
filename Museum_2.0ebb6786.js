@@ -1,0 +1,2 @@
+"use strict";let form=document.getElementById("form"),input=document.getElementById("form_input");form.addEventListener("submit",t=>{t.preventDefault(),input.value="",input.classList.add("subscribe__input--submitted"),window.scrollTo({top:0,behavior:"smooth"})}),window.addEventListener("hashchange",()=>{let t="#menu"===location.hash;document.body.classList.toggle("no-scroll",t)});
+//# sourceMappingURL=Museum_2.0ebb6786.js.map
